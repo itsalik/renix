@@ -22,7 +22,7 @@ const Card: FC<CardProps> = ({
       <div
         className={`${
           children
-            ? ""
+            ? "py-3 "
             : "py-3 px-6 flex items-center justify-center text-red-400"
         }`}
       >
