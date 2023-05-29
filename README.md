@@ -35,6 +35,9 @@ Renix UI Component Library provides a growing set of components for building web
 - Button
 - Line
 - Avatar
+- Link
+- Card
+- Badge
 
 
 ## Roadmap
@@ -47,7 +50,6 @@ Renix UI Component Library is still under development, and there are more compon
 - Pagination
 - Checkbox
 - Layout
-- Link
 - Text
 - Space
 - Checkbox
@@ -60,7 +62,6 @@ Renix UI Component Library is still under development, and there are more compon
 - Time Picker
 - Time Select
 - Upload
-- Card
 - Description
 - Empty
 - Image
