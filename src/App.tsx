@@ -1,12 +1,19 @@
-import Badge from "../packages/Badge";
+import Card from "../packages/Card";
 import "./App.css";
 
-
+const HeaderApp = () => {
+  return (
+    <div className="flex justify-between">
+      <span>title</span>
+      <span>options</span>
+    </div>
+  );
+};
 function App() {
   return (
     <>
       <h1 className="text-xlg">Renix 🎇</h1>
-      <Badge value={50} type="warning" max={10}  className="mt-6">Hello</Badge>
+      <Card headerChildren={<HeaderApp />} className="mt-5"></Card>
     </>
   );
 }
